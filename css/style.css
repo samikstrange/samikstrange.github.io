@@ -1,0 +1,32 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+body {
+  min-width: ;
+  font-size: ;
+  font-weight: ;
+  font-family: "", "Arial", sans-serif;
+  line-height: ;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: ;
+  margin: 0 auto;
+}
+
+
