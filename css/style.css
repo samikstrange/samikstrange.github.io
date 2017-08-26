@@ -7,7 +7,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 body {
   min-width: 1190px;
-  font-family: "", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .clearfix::after {
@@ -24,6 +24,7 @@ img {
 .page-header {
   background: #8a8f9b url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  margin-bottom: 68px;
 }
 
 .container {
@@ -135,7 +136,7 @@ img {
 
 .btn {
   display: inline-block;
-  padding: 20px 44px 22px 65px;
+  padding: 25px 44px 25px 65px;
   font-size: 25px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 600;
@@ -154,4 +155,121 @@ img {
 
 .btn:active {
   color: #8a8f9b;
+}
+
+.services {
+  margin-bottom: 97px;
+}
+
+.services h2 {
+  position: relative;
+  margin: 0;
+  margin-bottom: 180px;
+  padding-bottom: 28px;
+  font-size: 42px;
+  font-family: "Lora", "Times new roman", serif;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3a3f4b;
+}
+
+.services h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 147px;
+  height: 4px;
+  background-color: #00a5ff;
+}
+
+.services-item {
+  float: left;
+  width: 285px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.services-item:last-child {
+  margin-right: 0;
+}
+
+.services-item h3 {
+  position: relative;
+  margin: 0;
+  margin-bottom: 18px;
+  padding-bottom: 19px;
+  padding-top: 18px;
+  font-size: 18px;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3a3f4b;
+}
+
+.services-item h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 41px;
+  height: 1px;
+  background-color: #3a3f4b;
+}
+
+.services-item h3::before {
+  content: "";
+  display: block;
+  width: 81px;
+  height: 81px;
+  position: absolute;
+  bottom: 100%;
+}
+
+h3.logo-deseign::before {
+  content: "";
+  background: url("../images/services_sprites.png") no-repeat;
+  position: absolute;
+  left: 100px
+}
+
+h3.web-design::before {
+  content: "";
+  background: url("../images/services_sprites.png") no-repeat -296px;
+  position: absolute;
+  left: 105px
+}
+
+h3.branding::before {
+  content: "";
+  background: url("../images/services_sprites.png") no-repeat -95px;
+  position: absolute;
+  left: 105px
+}
+
+h3.illustrations::before {
+  content: "";
+  background: url("../images/services_sprites.png") no-repeat -196px;
+  position: absolute;
+  left: 103px
+}
+
+.services-item p {
+  margin: 0;
+  padding: 0 32px;
+  font-size: 12px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #999999;
 }
