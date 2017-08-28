@@ -345,7 +345,7 @@ font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
   }
   
-  .gallery a {
+  .gallery .btn {
     margin-top: 47px;
   }
   
@@ -367,13 +367,17 @@ font-family: 'Source Sans Pro', sans-serif;
     object-fit: none;
   }
   
-  .gallery-item figcaption {
+  figcaption {
     padding: 27px 0;
-    padding-left: 32px;
+    padding-left: 34px;
+  }
+  
+  figcaption a {
     font-size: 18px;
     font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 600;
     text-transform: capitalize;
+    text-decoration: none;
     text-shadow: #9e9e9f 0 2px 40px;
     color: #9e9e9f;
   }
