@@ -163,7 +163,8 @@ font-family: 'Source Sans Pro', sans-serif;
   }
   
   .services h2,
-  .portfolio h2 {
+  .portfolio h2,
+  .brands h2 {
     position: relative;
     margin: 0;
     margin-bottom: 180px;
@@ -178,7 +179,8 @@ font-family: 'Source Sans Pro', sans-serif;
   }
   
   .services h2:before,
-  .portfolio h2:before {
+  .portfolio h2:before,
+  .brands h2:before {
     content: "";
     display: block;
     position: absolute;
@@ -380,4 +382,49 @@ font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     text-shadow: #9e9e9f 0 2px 40px;
     color: #9e9e9f;
+  }
+  
+  .brands {
+    margin-bottom: 126px;
+  }
+  
+  .brands h2 {
+    margin-bottom: 75px;
+  }
+  
+  .brands-label a {
+    float: left;
+    opacity: 0.5;
+  }
+  
+  .brands-label a:hover {
+    opacity: 1;
+  }
+  
+  .brandes-item1 {
+    margin-right: 78px;
+  }
+  
+  .brandes-item2 {
+    margin-right: 87px;
+    padding-top: 19px;
+  }
+  
+  .brandes-item3 {
+    margin-right: 72px;
+    padding-top: 17px;
+  }
+  
+  .brandes-item4 {
+    margin-right: 81px;
+    padding-top: 13px;
+  }
+  
+  .brandes-item5 {
+    margin-right: 69px;
+    padding-top: 26px;
+  }
+  
+  .brandes-item6 {
+    padding-top: 28px;
   }
