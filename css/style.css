@@ -601,6 +601,10 @@
     cursor: pointer;
   }
   
+  .copyright {
+    position: relative;
+  }
+  
   .footer-copyright p {
     float: left;
     margin: 0;
@@ -626,7 +630,7 @@
     height: 31px;
     background: url("../images/social_sprites.png") no-repeat;
   }
-/*
+  /*
   .social-btn:focus {
    opacity: 0.5;
   }
@@ -646,4 +650,18 @@
   
   .social-in {
     background: url("../images/social_sprites.png") no-repeat -149px 0;
+  }
+  
+  .round-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 666px;
+    display: block;
+    width: 75px;
+    height: 75px;
+    background: url("../images/round_btn.png") no-repeat;
+  }
+  
+  .round-btn:hover {
+    bottom: 48px;
   }
