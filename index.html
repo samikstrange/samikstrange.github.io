@@ -128,16 +128,65 @@
     <section class="about-us">
       <div class="container clearfix">
         <h2>See what others are saying about us</h2>
-        <div class="slider">
-          <div class="slider-avatar">
-            <img src="images/about1.png" width="135" height="135">
-            <img src="images/about2.png" width="135" height="135">
-            <img src="images/about3.png" width="135" height="135">
+
+        <div class="wrapper">
+
+          <input type="radio" name="point" id="slide1" checked>
+          <input type="radio" name="point" id="slide2">
+          <input type="radio" name="point" id="slide3">
+
+          <div class="slider">
+           
+            <div class="slides slide1">
+              <img src="images/about1.png" width="135" height="135">
+              <div class="lorem">
+                <p>“1orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ”</p>
+              </div>
+              <div class="linda">
+                <p>Henry from <a href="#">example.com</a></p>
+              </div>
+            </div>
+
+            <div class="slides slide2">
+              <img src="images/about2.png" width="135" height="135">
+              <div class="lorem">
+                <p>“2orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ”</p>
+              </div>
+              <div class="linda">
+                <p>Linda from <a href="#">example.com</a></p>
+              </div>
+            </div>
+             
+              <div class="slides slide3">
+                <img src="images/about3.png" width="135" height="135">
+                <div class="lorem">
+                  <p>“3orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ”</p>
+                </div>
+                <div class="linda">
+                  <p>Ray from <a href="#">example.com</a></p>
+                </div>
+              </div>
+               
+                <div class="side-controls-left">
+                  <label for="slide1"></label>
+                  <label for="slide2"></label>
+                  <label for="slide3"></label>
+                </div>
+                <div class="side-controls-right">
+                  <label for="slide1"></label>
+                  <label for="slide2"></label>
+                  <label for="slide3"></label>
+                </div>
+              </div>
+
+              <div class="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+              </div>
+
+            </div>
           </div>
-          <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ”
-            <span>Linda from</span> <a href="#">example.com</a> </p>
-        </div>
-      </div>
     </section>
   </main>
 
@@ -198,10 +247,10 @@
           <p>&copy; 2016 Nishant Bazzad</p>
         </div>
         <div class="footer-social clearfix">
-          <a class="social-btn social-fb" href="#"></a>
-          <a class="social-btn social-tw" href="#"></a>
-          <a class="social-btn social-cp" href="#"></a>
-          <a class="social-btn social-in" href="#"></a>
+          <a class="social-btn social-fb hide" href="#">Facebook</a>
+          <a class="social-btn social-tw hide" href="#">Twitter</a>
+          <a class="social-btn social-cp hide" href="#">Composite path</a>
+          <a class="social-btn social-in hide" href="#"> Linkedin</a>
         </div>
         <a href="#" class="round-btn"></a>
       </div>
