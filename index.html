@@ -18,7 +18,7 @@
     <div class="container clearfix">
       <div class="header-top clearfix">
         <div class="header-logo">
-          <div class="logo"><span>V</span>elox</div>
+          <div class="logo"><span class="first-letter">V</span>elox</div>
         </div>
         <nav class="main-nav">
           <ul>
@@ -44,7 +44,7 @@
         <h2 class="services-title">Our Services</h2>
         <div class="services-item">
           <a href="#">
-            <h3 class="logo-design">logo deseign</h3>
+            <h3 class="logo-design">logo design</h3>
           </a>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
         </div>
@@ -217,34 +217,42 @@
             <li><a href="#">Contact us</a></li>
           </ul>
         </nav>
-        <div class="message">
-          <form action="#" method="post">
-            <div class="field">
-              <div class="field-item">
-                <label for="name">Name:</label><br>
-                <input name="user" type="text" id="name">
-              </div>
-              <div class="field-item">
-                <label for="subject">Subject:</label><br>
-                <input name="subject" type="text" id="subject">
-              </div>
-              <div class="field-item">
-                <label for="message"> Your Message:</label><br>
-                <textarea name="message" id="message" rows="5"></textarea><br>
-                <button class="footer-btn btn" type="submit">Send message</button>
-              </div>
-            </div>
-          </form>
-        </div>
+
+<div class="footer-message">
+        <form  action="#" method="post">
+
+          <table>
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td><label for="subject">Subject:</label></td>
+            </tr>
+            <tr>
+              <td><input name="user" type="text" id="name"></td>
+              <td><input name="subject" type="text" id="subject"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><label for="message"> Your Message:</label></td>
+            </tr>
+            <tr>
+              <td colspan="2"><textarea name="message" id="message" rows="5"></textarea></td>
+            </tr>
+          </table>
+
+        </form>
+
+        <button class="footer-btn btn" type="submit">Send message</button>
+</div>
       </div>
+
     </div>
+
 
     <div class="copyright">
       <div class="container clearfix">
-        <div class="footer-copyright">
+        <div class="footer-copyright clearfix">
           <p>&copy; 2016 Nishant Bazzad</p>
         </div>
-        <div class="footer-social clearfix">
+        <div class="footer-social">
           <a class="social-btn social-fb hide" href="#">Facebook</a>
           <a class="social-btn social-tw hide" href="#">Twitter</a>
           <a class="social-btn social-cp hide" href="#">Composite path</a>

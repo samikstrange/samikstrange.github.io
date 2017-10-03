@@ -32,7 +32,6 @@ img {
 
 .header-logo {
   float: left;
-  width: 250px;
   padding-top: 25px;
 }
 
@@ -44,11 +43,19 @@ img {
   color: #ffffff;
 }
 
-.logo span {
+.logo .first-letter {
   float: left;
   margin-right: 2px;
   padding: 0px 5px;
   background: #393e4b;
+}
+
+.logo:hover {
+  color: #000000;
+}
+
+.logo:hover .first-letter {
+  background: #ffffff;
 }
 
 .main-nav {
@@ -386,7 +393,7 @@ figcaption a:active {
 .brands-label a {
   display: inline-block;
   margin-right: 77px;
-  vertical-align: top;
+  vertical-align: middle;
   opacity: 0.5;
 }
 
@@ -583,7 +590,7 @@ figcaption a:active {
 .contact-us .contacts {
   float: left;
   width: 350px;
-  margin-right: 46px;
+  margin-right: 45px;
 }
 
 .contacts .contacts-title {
@@ -642,7 +649,7 @@ figcaption a:active {
 
 .footer-nav {
   float: right;
-  margin-bottom: 102px;
+  margin-bottom: 90px;
   text-align: right;
 }
 
@@ -678,32 +685,27 @@ figcaption a:active {
   color: #999999
 }
 
-.message {
-  float: left;
+.footer-message {
+  float: right;
 }
 
-.field-item {
-  display: inline-block;
-}
 
-.field-item:last-child {
-  display: block;
-}
-
-.field-item label {
+.footer-message label {
+  padding-left: 5px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 26px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
   color: #ffffff;
 }
 
-.field-item input,
-.field-item textarea {
+.footer-message input,
+.footer-message textarea {
   box-sizing: border-box;
   width: 360px;
   margin-right: 45px;
-  padding: 12px 20px;
+  margin-bottom: 30px;
+  padding: 12px 25px;
   font-family: "Open Sans", Arial, sans-serif;
   color: #ffffff;
   background: #3b404c;
@@ -712,39 +714,45 @@ figcaption a:active {
   outline: none;
 }
 
-.field-item input:focus,
-.field-item textarea:focus {
+.footer-message td:nth-child(2) input {
+  margin-right: 0;
+}
+
+
+.footer-message input:focus,
+.footer-message textarea:focus {
   border-bottom: 1px solid #00a5ff;
 }
 
-.field-item:nth-child(2) input {
-  margin: 0;
-}
-
-.field-item input {
-  margin-bottom: 63px;
-}
-
-.field-item textarea {
+.footer-message textarea {
   width: 765px;
   max-width: 765px;
   margin: 0 0 39px 0;
+}
+
+.footer-message .textarea-title {
+  margin-top: 20px;
 }
 
 .footer-btn {
   padding: 20px 47px 22px 59px;
   border: none;
   cursor: pointer;
+  text-transform: none;
 }
 
 .copyright {
   position: relative;
 }
 
-.footer-copyright p {
+.footer-copyright {
   float: left;
+}
+
+
+.footer-copyright p {
   margin: 0;
-  padding: 40px 0 38px 0;
+  padding: 40px 0;
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -800,8 +808,8 @@ figcaption a:active {
 
 .round-btn {
   position: absolute;
-  bottom: 50px;
-  left: 47%;
+  top: -40%;
+  left: 50%;
   width: 75px;
   height: 75px;
   background: #00a5ff url("../images/scroll.png") no-repeat 50% 50%;
@@ -809,7 +817,5 @@ figcaption a:active {
 }
 
 .round-btn:hover {
-  bottom: 48px;
+  top: -38%;
 }
-
-
